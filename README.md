@@ -26,7 +26,7 @@ Creates a Repository on Github from Golang Code using Github API - https://api.g
     ```
     curl --location --request POST 'https://api.github.com/user/repos' \
     --header 'Accept: application/vnd.github.v3+json' \
-    --header 'Authorization: Bearer b3be22a709b6a0121b1082a886bdf1c0d0929705' \
+    --header 'Authorization: Bearer yourbearerToken' \
     --header 'Content-Type: application/json' \
     --data-raw '{
 
